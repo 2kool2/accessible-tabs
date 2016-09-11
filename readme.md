@@ -3,6 +3,8 @@
 
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a></strong>
 
+
+<br>
 ##Features
 
 * Vanilla JavaScript with no dependencies.
@@ -10,6 +12,7 @@
 * Optionally switch on hover.
 
 
+<br>
 ##To use
 
 Link to styles
