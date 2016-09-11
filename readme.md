@@ -1,5 +1,5 @@
 
-#<a href="http://websemantics.uk/articles/accessible-tab-navigation/"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 accessible tab navigation with <abbr title="Accessible Rich Internet Applications">ARIA</abbr> support</a>
+#<a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation to meet <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 using <abbr title="Accessible Rich Internet Applications">ARIA</abbr> roles</a>
 
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a></strong>
 
@@ -7,7 +7,7 @@
 <br>
 ##Features
 
-* Vanilla JavaScript with no dependencies.
+* Lightweight vanilla JavaScript with zero dependencies.
 * Meets WCAG 2 level AA and uses ARIA roles.
 * Optionally switch on hover.
 
