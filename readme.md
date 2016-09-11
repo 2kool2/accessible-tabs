@@ -1,7 +1,7 @@
 
 #<a href="http://websemantics.uk/articles/accessible-tab-navigation/"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> <abbr title="Accessible Rich Internet Applications">ARIA</abbr> accessible tab navigation</a>
 
-Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a>
+<strong>Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a></strong>
 
 Use the <kbd>Tab</kbd> key to jump link to visible link, and the arrow keys to navigate across the tabs.
 
