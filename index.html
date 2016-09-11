@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang=en-GB>
+<head>
+  <meta charset=utf-8>
+  <meta http-equiv=X-UA-Compatible content="IE=edge">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Accessible tab navigation</title>
+  <link rel=stylesheet href=css/styles.css>
+</head>
+<body>
+
+<main class=-modal>
+
+<h1><a href="http://websemantics.uk/articles/accessible-tab-navigation/"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> <abbr title="Accessible Rich Internet Applications">ARIA</abbr> accessible tab navigation</a></h1>
+
+<p>Use the <kbd>Tab</kbd> key to jump link to visible link, and the arrow keys to navigate across the tabs.</p>
+<p>A red focus outline is applied to aid visualisation.</p>
+
+<div class=tl_container>
+
+  <!-- A plain set of anchor links in HTML -->
+
+  <ul class="tl_list">
+    <li><a href=#A>Section A</a></li>
+    <li><a href=#B class=tl_lnk-on>Section B</a></li>
+    <li><a href=#C>Section C</a></li>
+  </ul>
+
+  <section id=A class=tl_section>
+    <h2>Content heading A</h2>
+    <p>Copy with an <a class=a href="#">Example focusable link</a> as content for A.</p>
+  </section>
+
+  <section id=B class=tl_section>
+    <h2>Content heading B</h2>
+    <p>Copy with an <a class=b href="#">Example focusable link</a> as content for B.</p>
+  </section>
+
+  <section id=C class=tl_section>
+    <h2>Content heading C</h2>
+    <p>Copy without a focusable link as content for C.</p>
+  </section>
+
+</div>
+
+ <p>There's an option to allow mouse hover to activate a tab by adding the class "hoverable" to the  tablist <code>ul</code>. Not sure it's such a good idea though.</p>
+
+<!-- Button to add / remove "hoverable" class to tl_lst -->
+<p id=addToggle></p>
+
+
+<p>Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a></p>
+
+</main>
+
+
+
+<!--
+<script src=js/accessible-tabs.1.0.min.js></script>
+ -->
+<!-- -->
+<script src=js/accessible-tabs.1.0.js></script>
+
+
+<script>
+
+(function(){
+
+  // button to toggle the "on-hover tab-switching" behaviour
+
+  function toggler (e) {
+    // toggle content objs class
+    var btn = e.target;
+    var listClass = btn.getAttribute("data-listClass");
+    var toggleClass = btn.getAttribute("data-toggleClass");
+    var objs = document.querySelectorAll("." + listClass);
+    var i = objs.length;
+    while (i--) {
+      objs[i].classList.toggle(toggleClass);
+    }
+
+    // change btn attr
+    var pressed = btn.getAttribute("aria-pressed");
+    if (pressed === "false") {
+      btn.innerHTML = "Remove &#8220;hoverable&#8221; class";
+      btn.setAttribute("aria-pressed", "true");
+    } else {
+      btn.innerHTML = "Add &#8220;hoverable&#8221; class";
+      btn.setAttribute("aria-pressed", "false");
+    }
+  }
+
+  var p = document.getElementById("addToggle");
+  if (p) {
+    p.innerHTML = "<button id=toggler class=toggler data-listClass='tl_list' data-toggleClass='tl-hoverable' aria-pressed=false>Add &#8220;hoverable&#8221; class</button> " + p.innerHTML;
+    var btn = document.getElementById("toggler");
+    btn.addEventListener("click", toggler, false);
+  }
+
+}(document));
+</script>
+
+</body>
+</html>

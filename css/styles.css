@@ -1,0 +1,77 @@
+body {font-family:sans-serif; line-height:1.5; margin:1rem 2rem}
+h1,h2 {font-weight:100}
+h2 {margin-top:2rem}
+li {margin:.75rem 0}
+kbd,code{font-size:larger}
+
+
+
+/* Tab styling (optional) */
+
+.tl_container {margin: 2rem 0;}
+
+.tl_list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: left;
+  list-style: none;
+}
+
+.tl_list li {
+  margin: 0;
+  width: 33.3333%;
+  text-align: center;
+  border-radius: .25rem .25rem 0 0;
+}
+
+[role="tablist"] [aria-selected] {
+  padding: 1rem 0.5rem;
+  display: block;
+  border: none;
+  text-decoration: none;
+}
+
+/* Non-active tab hover */
+[role="tablist"] [aria-selected="false"]:hover {
+  background-color: rgba(35,110,206,.125);
+}
+
+
+/* Section styling (optional) */
+
+.tl_section {
+  padding: 1rem 1.5rem;
+  min-height: 8rem;
+  border-radius: 0 0 4px 4px;
+}
+.tl_section h2 {
+  margin-top: 1rem;
+}
+
+
+/* tab & panel colour */
+
+[role="tablist"] [aria-selected]:focus,
+[role="tablist"] [aria-selected="true"],
+[role="tabpanel"][aria-hidden="false"] {
+  background-color: rgba(35,110,206,.25);
+}
+
+/*
+  Red focus ring - so you can see where it's focussed.
+  Not required specifically but be sure keyboard users can tell where they are.
+*/
+.tl_list a:focus,
+.tl_section :focus {outline: .125rem solid #f00}
+
+
+/*
+Section styling (required)
+Removes hidden sections from the keychain.
+Only used when JavaScript is available.
+*/
+[role="tabpanel"][aria-hidden="true"] {
+  display: none;
+}
