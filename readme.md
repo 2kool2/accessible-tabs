@@ -1,9 +1,8 @@
 
-#<a href="http://websemantics.uk/articles/accessible-tab-navigation/"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> <abbr title="Accessible Rich Internet Applications">ARIA</abbr> accessible tab navigation</a>
+#<a href="http://websemantics.uk/articles/accessible-tab-navigation/"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 accessible tab navigation with <abbr title="Accessible Rich Internet Applications">ARIA</abbr> support</a>
 
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a></strong>
 
-Use the <kbd>Tab</kbd> key to jump link to visible link, and the arrow keys to navigate across the tabs.
 
 Link to styles
 ```html
@@ -11,7 +10,7 @@ Link to styles
 
 ```
 
-The links are a straight set of page anchors in a list:
+The links are coded as a normal set of page anchors in a list:
 ```html
 <ul class="tl_list">
     <li><a href="#A">Section A</a></li>
