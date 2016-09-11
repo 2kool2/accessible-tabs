@@ -3,6 +3,14 @@
 
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a></strong>
 
+##Features
+
+* Vanilla JavaScript with no dependencies.
+* Meets WCAG 2 level AA and uses ARIA roles.
+* Optionally switch on hover.
+
+
+##To use
 
 Link to styles
 ```html
@@ -24,17 +32,17 @@ Which references the sections
 ```html
 <section id="A" class="tl_section">
     <h2>Heading A</h2>
-    <p>Copy with an <a href="#">Example focusable link</a> as content for A.</p>
+    <p>Copy A</p>
 </section>
 
 <section id="B" class="tl_section">
     <h2>Heading B</h2>
-    <p>Copy with an <a href="#">Example focusable link</a> as content for B.</p>
+    <p>Copy B</p>
 </section>
 
 <section id="C" class="tl_section">
     <h2>Heading C</h2>
-    <p>Copy without a focusable link as content for C.</p>
+    <p>Copy C</p>
 </section>
 ```
 
