@@ -13,27 +13,27 @@ Link to styles
 
 The links are a straight set of page anchors in a list:
 ```html
-<ul class=tl_list>
-    <li><a href=#A>Section A</a></li>
-    <li><a href=#B class=tl_lnk-on>Section B</a></li>
-    <li><a href=#C>Section C</a></li>
+<ul class="tl_list">
+    <li><a href="#A">Section A</a></li>
+    <li><a href="#B" class="tl_lnk-on">Section B</a></li>
+    <li><a href="#C">Section C</a></li>
 </ul>
 ```
 
 
 Which references the sections
 ```html
-<section id=A class=tl_section>
+<section id="A" class="tl_section">
     <h2>Heading A</h2>
     <p>Copy with an <a href="#">Example focusable link</a> as content for A.</p>
 </section>
 
-<section id=B class=tl_section>
+<section id="B" class="tl_section">
     <h2>Heading B</h2>
     <p>Copy with an <a href="#">Example focusable link</a> as content for B.</p>
 </section>
 
-<section id=C class=tl_section>
+<section id="C" class="tl_section">
     <h2>Heading C</h2>
     <p>Copy without a focusable link as content for C.</p>
 </section>
