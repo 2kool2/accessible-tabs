@@ -48,9 +48,6 @@ Include the JavaScript
 
 There's an option to allow mouse hover to activate a tab by adding the class "hoverable" to the  tablist <code>ul</code>. Not sure it's such a good idea though.
 
-
 CodePen demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a>
-
-Encapuslated with external configuration and instantiation: <a href="https://websemantics.uk/articles/accessible-modal-dialog-popup-iframe/demo/">Modal Dialog demo</a>.
 
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
