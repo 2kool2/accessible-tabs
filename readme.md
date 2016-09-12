@@ -13,7 +13,7 @@
 
 
 <br>
-##To use
+##Basic usage
 
 Link to styles
 ```html
@@ -60,4 +60,5 @@ There's an option to allow mouse hover to activate a tab by adding the class "ho
 
 CodePen demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a>
 
+<hr>
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
