@@ -14,7 +14,7 @@
 <h1><a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation to meet <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 using <abbr title="Web Accessibility Initiative">WAI</abbr>-<abbr title="Accessible Rich Internet Applications">ARIA</abbr> roles</a></h1>
 
 <p>Use the <kbd>Tab</kbd> key to jump link to visible link, and the arrow keys to navigate across the tabs.</p>
-<p>A red focus outline is applied to aid visualisation.</p>
+<p>A <strong>red focus outline</strong> is applied as an aid to visualisation but it is <strong>not</strong> a requirement.</p>
 
 <div class=tl_container>
 
@@ -39,6 +39,22 @@
   <section id=C class=tl_section>
     <h2>Content heading C</h2>
     <p>Copy without a focusable link as content for C.</p>
+
+    <ul class="tl_list">
+      <li><a href=#D>Sub-section D</a></li>
+      <li><a href=#E class=tl_lnk-on>Sub-section E</a></li>
+    </ul>
+
+    <div id=D class=tl_section>
+      <h2>Content heading D</h2>
+      <p>Copy without a focusable link as content for D.</p>
+    </div>
+
+    <div id=E class=tl_section>
+      <h2>Content heading E</h2>
+      <p>Copy without a focusable link as content for E.</p>
+    </div>
+
   </section>
 
 </div>
@@ -48,7 +64,9 @@
 <!-- Button to add / remove "hoverable" class to tl_lst -->
 <p id=addToggle></p>
 
-
+<p>Article: <a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation</a></p>
+<p>CodePen demo: <a href="http://codepen.io/2kool2/pen/Kzaddm?editors=0010">WCAG ARIA accessible tab navigation</a></p>
+<p>GitHub repo: <a href="https://github.com/2kool2/crop-copy-slide-restore">Accessible tabs</a></p>
 <p>Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a></p>
 
 </main>
@@ -56,10 +74,9 @@
 
 
 <!--
-<script src=js/accessible-tabs.1.0.min.js></script>
+<script src=js/accessible-tabs.1.1.min.js></script>
  -->
-<!-- -->
-<script src=js/accessible-tabs.1.0.js></script>
+<script src=js/accessible-tabs.1.1.js></script>
 
 
 <script>

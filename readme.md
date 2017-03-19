@@ -9,6 +9,7 @@
 
 * Lightweight vanilla JavaScript with zero dependencies.
 * Meets WCAG 2 level AA and uses WAI-ARIA roles.
+* Supports nested tablists.
 * Optionally switch on hover.
 
 
@@ -52,7 +53,7 @@ Which references the sections
 
 Include the JavaScript
 ```html
-<script src="js/accessible-tabs.1.0.js"></script>
+<script src="js/accessible-tabs.1.1.js"></script>
 ```
 
 
@@ -61,4 +62,8 @@ There's an option to allow mouse hover to activate a tab by adding the class "ho
 CodePen demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WCAG ARIA accessible tab navigation</a>
 
 <hr>
+* Article: <a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation</a>
+* CodePen demo: <a href="http://codepen.io/2kool2/pen/Kzaddm?editors=0010">WCAG ARIA accessible tab navigation</a>
+* GitHub repo: <a href="https://github.com/2kool2/crop-copy-slide-restore">Accessible tabs</a>
+
 Mike Foskett @ <a href="https://websemantics.uk/">webSemantics</a>
