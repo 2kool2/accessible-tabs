@@ -61,6 +61,7 @@ There's an option to allow mouse hover to activate a tab by adding the class "ho
 
 
 <hr>
+
 * Article: <a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation</a>
 * CodePen demo: <a href="http://codepen.io/2kool2/pen/Kzaddm?editors=0010">WCAG ARIA accessible tab navigation</a>
 * GitHub repo: <a href="https://github.com/2kool2/accessible-tabs">Accessible tabs</a>
