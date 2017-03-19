@@ -1,11 +1,11 @@
 
-#<a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation to meet <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 using <abbr title="Accessible Rich Internet Applications">ARIA</abbr> roles</a>
+<h1><a href="http://websemantics.uk/articles/accessible-tab-navigation/">Accessible tab navigation to meet <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2 using <abbr title="Accessible Rich Internet Applications">ARIA</abbr> roles</a></h1>
 
 <strong>Demo: <a href="https://codepen.io/2kool2/pen/Kzaddm">WAI-ARIA accessible tab navigation</a></strong>
 
 
 <br>
-##Features
+<h2>Features</h2>
 
 * Lightweight vanilla JavaScript with zero dependencies.
 * Meets WCAG 2 level AA and uses WAI-ARIA roles.
@@ -14,7 +14,7 @@
 
 
 <br>
-##Basic usage
+<h2>Basic usage</h2>
 
 Link to styles
 ```html
